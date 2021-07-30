@@ -27,7 +27,6 @@ document.addEventListener('keydown', function (e) {
   // console.log(e);
   console.log(e.key);
   //^ どのキーが押されたのか、ログされる/書き込まれる。
-  // 閉じるキーは「C (大文字)」にする。
   if (e.key === 'C') {
     if (!modal.classList.contains('hidden')) {
       closeModal();
